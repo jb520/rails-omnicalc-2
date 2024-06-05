@@ -9,6 +9,6 @@ class SubtractionController < ApplicationController
 
     @result =  @second_num - @first_num
 
-    render({ :template => "subtraction_templates/subtract_results" })
+    render({ :template => "subtraction_templates/subtraction_results" })
   end
 end
