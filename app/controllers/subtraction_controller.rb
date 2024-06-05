@@ -1,5 +1,5 @@
 class SubtractionController < ApplicationController
-  def show_subtraction_form
+  def show_sub_form
     render({ :template => "subtraction_templates/subtraction_form" })
   end
 
